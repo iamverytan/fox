@@ -1,0 +1,21 @@
+hi bren!
+
+to add json file
+-> download the json file 
+-> go to sideberry settings in firefox
+    -> help
+        -> import addon data
+            -> choose file
+                -> click import addon data
+
+to add css file
+-> open new tab in firefox
+    -> type about:config in address bar
+        -> Enter the following text in the search box: toolkit.legacyUserProfileCustomizations.stylesheets.
+            -> set the option to true if not true alr
+                -> new tab in firefox
+                    -> type about:support
+                        -> find profile folder and open folder
+                            -> add a folder to this folder called "chrome"
+                                -> make a file called "userChrome.css"
+                                    -> copy the contents of the css file to userChrome

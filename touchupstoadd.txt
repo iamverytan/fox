@@ -1,0 +1,13 @@
+hi bren
+
+some nitpicky details i want to fix (number of *s is how hard it will be):
+
++ (*) feels like the font in the tab sidebar looks weird when hovered on
+
++ (*) middle click on a tab deletes it in the sidebar, double click makes a duplicate. CHANGE TO middle click clones it in the same tree layer, double click does nothing
+
++ (*) scrholling trhough tabs when hovering in sidebar
+
++ (**) figure out way to add new tab to branch you are in vs a new tab to the root of the tab tree
+
++ (*****) change the visual/aesthetic of the firefox page when opening new window / tab
