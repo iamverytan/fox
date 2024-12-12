@@ -8,11 +8,11 @@ DONE (*) middle click on a tab deletes it in the sidebar, double click makes a d
 
 DONE (*) scrholling trhough tabs when hovering in sidebar
 
-+ (**) figure out way to add new tab to branch you are in vs a new tab to the root of the tab tree
+DONE (**) figure out way to add new tab to branch you are in vs a new tab to the root of the tab tree
 
-+ (**) change the default tab elements names and icons, and move to top
+DONE (**) change the default tab elements names and icons, and move to top
 
-+ (*) move bookmarks and hisotry to top
+IMPPSSOBLE (*) move bookmarks and hisotry to top
 
 + (*****) change the visual/aesthetic of the firefox page when opening new window / tab
 
