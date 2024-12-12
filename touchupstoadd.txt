@@ -17,3 +17,7 @@ IMPPSSOBLE (*) move bookmarks and hisotry to top
 + (*****) change the visual/aesthetic of the firefox page when opening new window / tab
 
 + (***) making firefox windows smaller cramps up the navbar
+
++ (*) cahnge the history and bookmarks behavior where it leaves it open and then thins it
+
++ (****) observe and fix all errors stemming from snapshots
