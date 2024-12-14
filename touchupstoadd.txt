@@ -15,6 +15,7 @@ DONE (**) change the default tab elements names and icons, and move to top
 IMPPSSOBLE (*) move bookmarks and hisotry to top
 
 + (*****) change the visual/aesthetic of the firefox page when opening new window / tab
+    i think i fixed? 
 
 + (***) making firefox windows smaller cramps up the navbar
 

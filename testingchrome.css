@@ -2,14 +2,21 @@
 
 html {
   --custom-bg: #dcdcdc;
+  --testing-colors: orange;
 }
 
 body {
-  background: var(--custom-bg) !important;
+  background-color: var(--custom-bg) !important;
 }
 
 html:not([privatebrowsingmode="temporary"]) .titlebar-buttonbox-container {
   display: none !important;
+  word-spacing: 150px;
+}
+
+html:not([privatebrowsingmode="temporary"]) .titlebar-buttonbox-container {
+  display: none !important;
+  word-spacing: 150px;
 }
 
 html:not([privatebrowsingmode="temporary"]) #navigator-toolbox {
@@ -76,7 +83,7 @@ html:not([privatebrowsingmode="temporary"]) #sidebar-header {
 
 #urlbar {
   left: 50% !important;
-  transform: translateX(-50%);
+  transform: translateX(-35%); /*this fixed search bar*/
   max-width: 960px !important;
 }
 
@@ -84,20 +91,23 @@ html:not([privatebrowsingmode="temporary"]) #sidebar-header {
   background: none !important;
   background-color: transparent !important;
 }
-
+/*side bar behavior*/
 html:not([privatebrowsingmode="temporary"]) #sidebar-box {
   --uc-sidebar-width: 45px;
   --uc-sidebar-hover-width: 360px;
-  position: relative;
+  position: relative;s
   min-width: var(--uc-sidebar-width) !important;
   width: var(--uc-sidebar-width) !important;
   max-width: var(--uc-sidebar-width) !important;
   z-index: 4 !important;
 }
 
+/* needed in fullscreen cant figure out what this does*/
+
+/*
 html:not([privatebrowsingmode="temporary"]) #main-window[sizemode="fullscreen"] #sidebar-box {
-  --uc-sidebar-width: 1px;
-}
+  --uc-sidebar-width: 1px !important;
+}*/
 
 html:not([privatebrowsingmode="temporary"]) #sidebar-splitter {
   display: none;
@@ -107,8 +117,10 @@ html:not([privatebrowsingmode="temporary"]) #sidebar {
   min-width: var(--uc-sidebar-width) !important;
 }
 
+/*sidebar hover behavior*/
 html:not([privatebrowsingmode="temporary"]) #sidebar-box:hover > #sidebar {
   min-width: var(--uc-sidebar-hover-width) !important;
+  transition: 0.25s;
 }
 
 html:not([privatebrowsingmode="temporary"]) .sidebar-panel {
